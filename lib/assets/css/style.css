@@ -1,0 +1,49 @@
+/* 外部容器宽度定义 */
+
+.quick-container-960 {
+  width: 960px;
+  margin: 0 auto;
+  overflow:hidden;
+  clear: both;
+  background-color: #EEE;
+  margin-top:1.618em;
+}
+
+.quick-container-960 .inner {
+  width:970px;
+}
+
+
+
+/* Grid宽度定义 */
+
+.quick-container-960 .wide-grid,
+.quick-container-960 .narrow-grid,
+.quick-container-960 .middle-grid,
+.grid-200,
+.grid-300 { 
+  float:left; 
+  margin-right: 10px;
+}
+
+.quick-container-960 .wide-grid { 
+  width: 630px; 
+}
+
+
+.quick-container-960 .middle-grid { 
+  width: 440px; 
+}
+
+
+.quick-container-960 .narrow-grid { 
+  width: 320px;
+}
+
+.grid-200 {
+  width: 200px;
+}
+.grid-300 {
+  width:300px;
+}
+
