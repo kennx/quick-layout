@@ -1,0 +1,22 @@
+@media (max-width: 480px) {
+  .quick-container-960 {
+    padding: 0;
+    margin: 0;
+  }
+  .quick-container-960,
+  .quick-container-960 .inner,
+  .quick-container-960 .wide-grid,
+  .quick-container-960 .narrow-grid,
+  .quick-container-960 .middle-grid,
+  .grid-200,
+  .grid-300 {
+    width: 100%;
+  }
+  .quick-container-960 .wide-grid,
+  .quick-container-960 .narrow-grid,
+  .quick-container-960 .middle-grid,
+  .grid-200,
+  .grid-300 {
+    float: none;
+  }
+}

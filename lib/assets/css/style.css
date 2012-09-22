@@ -5,7 +5,6 @@
   margin: 0 auto;
   overflow:hidden;
   clear: both;
-  background-color: #EEE;
   margin-top:1.618em;
 }
 
@@ -45,5 +44,22 @@
 }
 .grid-300 {
   width:300px;
+}
+
+.contour {
+  padding-bottom: 9999px;
+  margin-bottom: -9999px
+}
+
+
+
+/* ie6 */
+#agent-ie6 .quick-container-960 .wide-grid,
+#agent-ie6 .quick-container-960 .narrow-grid,
+#agent-ie6 .quick-container-960 .middle-grid,
+#agent-ie6 .grid-200,
+#agent-ie6 .grid-300 {
+  display: inline;
+  zoom: 1;
 }
 
