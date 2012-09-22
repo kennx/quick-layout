@@ -11,6 +11,7 @@
   .grid-200,
   .grid-300 {
     width: 100%;
+    margin: 0;
   }
   .quick-container-960 .wide-grid,
   .quick-container-960 .narrow-grid,
@@ -18,5 +19,8 @@
   .grid-200,
   .grid-300 {
     float: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 1.618em
   }
 }
